@@ -1,11 +1,11 @@
-Algoritmo a�o_bisiesto
-	Escribir "Ingrese el a�o"
-	Leer a�o
+Algoritmo año_bisiesto
+	Escribir "Ingrese el año"
+	Leer año
 	
-	si a�o mod 4 = 0 y ((a�o mod  100 <> 0) o (a�o mod 400=0)) Entonces
-		Escribir a�o "es un a�o bisiesto"
+	si año mod 4 = 0 y ((año mod  100 <> 0) o (año mod 400=0)) Entonces
+		Escribir año " es un año bisiesto"
 	sino 
-		
+		Escribir año " no es un año bisiesto"
 	FinSi
 	
 FinAlgoritmo
